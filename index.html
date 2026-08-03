@@ -7,9 +7,9 @@
 <title>BTE Result Link Generator</title>
 <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nhGFP776hU5uJqCTthZfecq_t4Eeb6Znf9cw2OHf1jZk5LFjyZ3zQFKFtl7uPHztjytq90TI_wEyALAP2djXZw" charset="UTF-8"></script><style>
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -363,7 +363,7 @@ input:focus {
 
 
 
-<div class="header">
+<div class="header"> 
     <h1>BTEUP Result Link Generator</h1>
     <p>Quickly generate and access your BTEUP examination results</p>
     <div class="developer-tag">
@@ -445,7 +445,7 @@ function generateLink() {
     let encDob = btoa(dob).replace(/=/g,"%3D");       
 
     generatedLink =
-    "https://result.bteexam.com/even/main/oddresult.aspx?id="    
+    "https://result.bteexam.com/even/main/rollno.aspx?id="     
     + encEnroll + "&id2=" + encDob;      
 
     document.getElementById("success-message").classList.add("active");
